@@ -27,3 +27,43 @@ Password:
 Password (again): 
 Superuser created successfully.
 ```
+
+## 常见的Web安全漏洞
+
++ 客户端脚本安全
+  + 浏览器安全
+  + XSS
+    + 反射型
+    + 存储型
+    + DOM型
+  + CSRF
+  + Click Jacking
+  + 网页钓鱼
++ 服务端应用安全
+  + 认证与会话管理
+  + AC
+  + 加密算法安全
+  + SQL注入
+    + GET注入
+    + POST注入
+    + HTTP头注入
+  + 文件上传漏洞
+  + Web框架漏洞
+  + 拒绝服务攻击（应用层、传输层）
+  + 开发语言安全
+    + 文件包含漏洞
+    + 变量覆盖漏洞
+    + 代码执行漏洞
+  + Web Server 配置安全
+    + 远程命令执行
++ 业务逻辑安全
+
+## 渗透工具
+
++ 客户端软件
+  + Burp Suite
+  + cURL
+  + Postman
++ 浏览器插件
+  + HackBar(SQL injection, XSS, 加密等)
+  + Wappalyzer(建站技术分析)
